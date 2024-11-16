@@ -74,9 +74,7 @@ function Rahbariyat() {
     <div className='blog-page'>
         <header className='height-75'>
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
-                <h1 className='text-center fw-semibold'>So'nggi yangiliklar</h1>
-                <p className='text-center w-75 mb-5'>Yangilikka bo'lgan intilish rivojlanishning muhim omillaridan biridir!!!
-                </p>
+                <h1 className='text-center fw-semibold'>Rahbariyat bo'limi</h1>
                 </div>
         </header>
 
