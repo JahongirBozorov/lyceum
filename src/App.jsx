@@ -9,6 +9,7 @@ import About from './pages/About/About';
 import Blog from './pages/Blog/Blog';
 import Contact from './pages/Contact/Contact';
 import News from './pages/News/News';
+import Rahbariyat from './pages/Rahbariyat/Rahbariyat';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
               <Nav.Link href='/' className='text-uppercase'>Bosh ekran</Nav.Link>
               <Nav.Link href='/courses' className='text-uppercase'>O'quv yo'nalishlari</Nav.Link>
               <Nav.Link href='/about' className='text-uppercase'>Biz haqimmizda</Nav.Link>
+              <Nav.Link href='/rahbariyat' className='text-uppercase'>Rahbariyat</Nav.Link>
               <Nav.Link href='/news' className='text-uppercase'>Yangiliklar</Nav.Link>
               <Nav.Link href='/blog' className='text-uppercase'>Natijalar</Nav.Link>
               <Nav.Link href='/contact' className='text-uppercase'>Ariza qoldirish</Nav.Link>
@@ -49,6 +51,7 @@ function App() {
         <Route path='/courses' element={<Courses />} />
         <Route path='/about' element={<About />} />
         <Route path='/blog' element={<Blog />} />
+        <Route path='/rahbariyat' element={<Rahbariyat/>} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/news' element={<News/>} />
       </Routes>
@@ -103,6 +106,9 @@ function App() {
                     </Link>
                     <Link to="/about" className='text-decoration-none text-danger'>
                       <li className='text-uppercase fw-semibold'>Biz haqimizda</li>
+                    </Link>
+                    <Link to="/about" className='text-decoration-none text-danger'>
+                      <li className='text-uppercase fw-semibold'>Rahbariyat</li>
                     </Link>
                     <Link to="/blog" className='text-decoration-none text-danger'>
                       <li className='text-uppercase fw-semibold'>Natijalarimiz</li>
