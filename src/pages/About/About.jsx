@@ -12,6 +12,7 @@ import Person6 from "../../utils/images/person6.jpg";
 import Person7 from "../../utils/images/person7.jpg";
 import Person8 from "../../utils/images/person8.jpg";
 import Person9 from "../../utils/images/person9.jpg";
+import Jumayev from "../../utils/jumayev.jpg"
 
 const persons = [
   {
@@ -94,12 +95,12 @@ function About() {
                 type="button"
                 className="btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0"
               >
-                Contact Us
+                Biz bilan bog'lanish
               </button>
             </Link>
           </div>
           <div className="col-lg-6 d-flex justify-content-center">
-            <img src={AboutUsSectionImg} className="img-fluid w-75" alt="" />
+            <img src={Jumayev} className="img-fluid w-75" alt="" />
           </div>
         </div>
       </div>
