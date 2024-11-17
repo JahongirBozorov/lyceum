@@ -3,14 +3,14 @@ import "./About.css";
 import { Link } from "react-router-dom";
 import AboutUsSectionImg from "../../utils/images/about-us-section-img.jpg";
 import ChooseSection from "../../components/ChooseSection/ChooseSection";
-import Person1 from "../../utils/images/person1.jpg";
-import Person2 from "../../utils/images/person2.jpg";
-import Person3 from "../../utils/images/person3.jpg";
-import Person4 from "../../utils/images/person4.jpg";
-import Person5 from "../../utils/images/person5.jpg";
-import Person6 from "../../utils/images/person6.jpg";
-import Person7 from "../../utils/images/person7.jpg";
-import Person8 from "../../utils/images/person8.jpg";
+import Person1 from "../../utils/ustozlar/Ergashev.jpg";
+import Person2 from "../../utils/ustozlar/Goyibova.jpg";
+import Person3 from "../../utils/ustozlar/Isayev.jpg";
+import Person4 from "../../utils/ustozlar/Jumayev.jpg";
+import Person5 from "../../utils/ustozlar/Mirzaqulov.jpg";
+import Person6 from "../../utils/ustozlar/Ro'ziyeva.jpg";
+import Person7 from "../../utils/ustozlar/Xojayeva.jpg";
+import Person8 from "../../utils/ustozlar/ahmedova.jpg";
 import Person9 from "../../utils/images/person9.jpg";
 import Jumayev from "../../utils/jumayev.jpg"
 
@@ -18,39 +18,51 @@ const persons = [
   {
     id: 1,
     img: [Person1],
+    name:["Qalandar"],
+    Surname:["Ergashev"]
   },
   {
     id: 2,
     img: [Person2],
+    name:["Dilbar"],
+    Surname:["G'oyibova"]
   },
   {
     id: 3,
     img: [Person3],
+    name:["Norxon"],
+    Surname:["Isayev"]
   },
   {
     id: 4,
     img: [Person4],
+    name:["Erkin"],
+    Surname:["Jumayev"]
   },
   {
     id: 5,
     img: [Person5],
+    name:[" Oltinqul"],
+    Surname:["Mirzaqulov"]
   },
   {
     id: 6,
     img: [Person6],
+    name:["Nodira"],
+    Surname:["Ro'ziyeva"]
   },
   {
     id: 7,
     img: [Person7],
+    name:["Dilfuza"],
+    Surname:["Xo'jayeva"]
   },
   {
     id: 8,
     img: [Person8],
-  },
-  {
-    id: 9,
-    img: [Person9],
-  },
+    name:["Norbibi"],
+    Surname:["Ahmedova"]
+  }
 ];
 
 function About() {
@@ -111,13 +123,17 @@ function About() {
 
       <div className="bg-body-tertiary py-5">
         <div className="container">
-          <h2 className="text-center mb-5">Our Winners</h2>
+          <h2 className="text-center mb-5 aboutSpan">Litseyimiz Faxriylari</h2>
           <div className="row g-4">
             {persons.map((person) => (
               <div key={person.id} className="col-md-4">
-                <img src={person.img} className="img-fluid" alt="" />
+                <div className="box">
+                <img src={person.img}className="img-fluid" alt="" />
+                <h1>{person.Surname} {person.name}</h1>
+                </div>
               </div>
             ))}
+            <hr />
           </div>
         </div>
       </div>
