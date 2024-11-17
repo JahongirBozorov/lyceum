@@ -33,7 +33,7 @@ function ChooseSection() {
                         </div>
                         <Card.Body>
                             <Card.Title className='text-center text-capitalize mb-3'>
-                                95% dan yuqori o'qishga kirish ko'rsatkichi
+                                98% dan yuqori o'qishga kirish ko'rsatkichi
                             </Card.Title>
                             <Card.Text className='text-center'>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit laborum qui facilis perspiciatis, ab pariatur! Eaque maxime ratione illum distinctio?
