@@ -69,7 +69,7 @@ function About() {
         <div className="row">
           <div className="col-lg-6 d-flex flex-column justify-content-center mb-4 mb-lg-0">
             <h2 className="mb-4 mb-lg-5">
-              Sobiq rahbar{" "}
+              Qorako'l maktabi asoschisi{" "}
               <span className="aboutSpan">To'xtamurod Jumayev</span> haqida
             </h2>
             <p>
