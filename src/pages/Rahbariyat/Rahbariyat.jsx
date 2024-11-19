@@ -19,7 +19,7 @@ const blogs = [
         name: "Feruz",
         firstname:"Mamirov",
         lastname:"To'xtaxonovich",
-        description: " Buxoro davlat universiteti  Qorako‘l akademik litseyi Yoshlar masalalari va ma’naviy va ma’rifiy ishlar bo’yicha direktor o’rinbosari"
+        description: "Buxoro davlat universiteti Qorako'l akademik litseyi o'quv ishlari bo'yicha direktor o'rinbosari"
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ const blogs = [
         name: "Nozim",
         firstname:"Nazarov",
         lastname:"Umidjon o'g'li",
-        description: "Бухоро давлат университети Қоракўл академик лицейи Бўлим мудири (Бошлиғи)"
+        description: " Buxoro davlat universiteti  Qorako‘l akademik litseyi Yoshlar masalalari va ma’naviy va ma’rifiy ishlar bo’yicha direktor o’rinbosari"
     },
     
 ];
