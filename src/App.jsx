@@ -28,7 +28,8 @@ function App() {
                 <br></br>
                 Akademik
                 <br></br>
-                Litseyi              </span>
+                Litseyi
+                </span>
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' className='bg-light' />
